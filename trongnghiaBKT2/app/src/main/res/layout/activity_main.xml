@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <TextView
+        android:id="@+id/tieude"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Danh sách thuốc tây"
+        android:textStyle="bold"
+        android:padding="10sp"
+        android:textSize="25sp"
+        android:gravity="center"
+        android:textColor="#EF0E0E"/>
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/rv"
+        android:paddingTop="20sp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_below="@+id/tieude">
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/floatingActionButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:clickable="true"
+        android:layout_marginLeft="300dp"
+        android:layout_marginTop="700dp"
+        app:srcCompat="@drawable/add_new" />
+
+</RelativeLayout>

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1034848572971",
+    "firebase_url": "https://trongnghiabkt2-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "trongnghiabkt2",
+    "storage_bucket": "trongnghiabkt2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1034848572971:android:7803f32661a25bc927bc6e",
+        "android_client_info": {
+          "package_name": "com.example.trongnghiabkt2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1034848572971-p7njfo5u94qaut21dases1off6kr9tdk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC3RkqI5H7yUkt4sIPGomUj9LVzVv0gyPo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1034848572971-p7njfo5u94qaut21dases1off6kr9tdk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
